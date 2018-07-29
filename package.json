@@ -1,0 +1,9 @@
+{
+  "name": "gouwu-project",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-uedtask": "github:meltifa/gulp-uedtask#gulp4"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body class="special">
+    <div class="one">
+      <div class="normal">1px</div>
+      <div class="half">0.5px</div>
+    </div>
+
+    <div class="two">
+      <div class="biz-item-info-unfold omit" data-content="火锅几乎是美食界的国粹不管是一起吃还是一人吃，都不会冷清！川十三民谣火锅店以红灰为主色调，进店红砖翠竹围绕，诗歌、炊具也高调列于墙上，彰显古朴和后现代质感，餐具专属设计，复古碗碟，怀旧搪瓷缸，青黑色锅具，无不让食客流连忘返店面一角是民谣自留地，不会喧宾夺主，也让人难以忽视，一把吉他一个人，唱歌像同你聊天，边吃边欣赏现场，刷洗着每一位食客的心事！" onclick="foldContent(this)">
+        <span>公司信息</span>
+        <div class="content">
+          火锅几乎是美食界的国粹不管是一起吃还是一人吃，都不会冷清！川十三民谣火锅店以红灰为主色调，进店红砖翠竹围绕，诗歌、炊具也高调列于墙上，彰显古朴和后现代质感，餐具专属设计，复古碗碟，怀旧搪瓷缸，青黑色锅具，无不让食客流连忘返店面一角是民谣自留地，不会喧宾夺主，也让人难以忽视，一把吉他一个人，唱歌像同你聊天，边吃边欣赏现场，刷洗着每一位食客的心事！
+          <div class="btn">&darr;</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var isOmit = true;
+
+      function foldContent(e) {
+        if (isOmit) {
+          isOmit = false;
+          e.classList.remove("omit");
+        } else {
+          isOmit = true;
+          e.classList.add("omit");
+        }
+      };
+    </script>
+  </body>
+</html>
